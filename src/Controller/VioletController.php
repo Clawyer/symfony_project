@@ -6,13 +6,13 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ProfildeuxController extends AbstractController
+class VioletController extends AbstractController
 {
     /**
-     * @Route("/", name="profildeux")
+     * @Route("/violet", name="violet")
      */
     public function home(): Response
     {
-        return $this->render('profildeux/profildeux.html.twig');
+        return $this->render('profil/violet.html.twig');
     }
 }
