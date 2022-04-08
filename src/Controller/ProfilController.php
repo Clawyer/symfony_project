@@ -13,6 +13,7 @@ class ProfilController extends AbstractController
      */
     public function profil(): Response
     {
-        return $this->render('profil/profil.html.twig');
+        $dab = 'YO LA CITEE';
+        return $this->render('profil/profil.html.twig', ['chibre' => $dab]);
     }
 }
