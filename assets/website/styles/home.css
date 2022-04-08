@@ -1,0 +1,29 @@
+.background--img {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  /* background-position: center; */
+  margin-bottom: 4rem;
+}
+.main {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+}
+.elon--text {
+  width: 40%;
+  align-self: center;
+  text-align: justify;
+}
+.elon {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+}
+.itachi {
+  width: 100%;
+  margin: auto 50%;
+}
