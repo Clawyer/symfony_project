@@ -1,8 +1,16 @@
 .img-violet {
-    width: 500px;
-    height: 200px;
+  width: 500px;
+  height: 200px;
+}
+.violet--main {
+  display: flex;
+  flex-flow: column;
+  gap: 5rem;
 }
 
-.lorem {
-    color: white;
+.lorem p {
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: 1rem auto;
 }
